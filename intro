@@ -2,7 +2,22 @@
 
 void main()
 {
- clrscr();
- prtintf("bas ab yahi hai");
- getch();
+
+ printf("bas ab yahi hai");
+ int i;
+ printf("\n enter a number");
+ scanf("%d",&i); 
+ 
+ switch(i)
+ {
+ case 1:
+ printf("ye zaroori hai");
+ break;
+ case 2:
+ printf("ye nahi hai");
+ break;
+ default:
+ printf("GM");
+ }
+
 }
