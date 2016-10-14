@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+void main()
+{
+ clrscr();
+ prtintf("bas ab yahi hai");
+ getch();
+}
